@@ -1,13 +1,12 @@
 let nums = [3, 6, 15, 43, 50];
+nums.forEach(process);
 
-for (num in nums){
-    process(num)
-}
 function process(num)
 {
     if (num % 3 == 0 && num % 5 == 0)
+        
     {
-        console.log('FizzBuzz');
+        console.log('FizzBuzz ' + num);
     }
     else if (num % 3 == 0)
     {
